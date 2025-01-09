@@ -1,0 +1,36 @@
+name: Test Dependabot Updates
+
+on:
+  pull_request:
+    branches:
+      - dependabot/**
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        directory:
+          - "/"
+          - "/contact"
+          - "/core"
+          - "/email_recovery"
+          - "/fcm"
+          - "/forward"
+          - "/model"
+          - "/rule_filter"
+          - "/server_settings"
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "stable"
+      - name: Install dependencies
+        working-directory: ${{ matrix.directory }}
+        run: flutter pub get
+      - name: Run tests
+        working-directory: ${{ matrix.directory }}
+        run: flutter test
