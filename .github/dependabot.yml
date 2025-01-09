@@ -4,7 +4,35 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    commit-message:
-      prefix: "deps"
-    open-pull-requests-limit: 5
-    rebase-strategy: "auto"
+  - package-ecosystem: "pub"
+    directory: "/contact"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/core"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/email_recovery"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/fcm"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/forward"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/model"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/rule_filter"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/server_settings"
+    schedule:
+      interval: "daily"
