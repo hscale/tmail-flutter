@@ -73,7 +73,7 @@ dependencies:
 
   http_parser: 4.0.2
 
-  path_provider: 2.1.1
+  path_provider: 2.1.5
 
   collection: 1.19.0
 
