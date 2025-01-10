@@ -41,7 +41,7 @@ dependencies:
 
   flutter_svg: 2.0.17
 
-  dio: 5.0.0
+  dio: 5.7.0
 
   dartz: 0.10.1
 
