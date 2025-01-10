@@ -36,7 +36,7 @@ dependencies:
       ref: main
 
   ### Dependencies from pub.dev ###
-  cupertino_icons: 1.0.6
+  cupertino_icons: 1.0.8
 
   equatable: 2.0.5
 
