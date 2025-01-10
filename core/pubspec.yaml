@@ -37,7 +37,7 @@ dependencies:
       path: sanitize_html
 
   ### Dependencies from pub.dev ###
-  cupertino_icons: 1.0.6
+  cupertino_icons: 1.0.8
 
   flutter_svg: 2.0.17
 
