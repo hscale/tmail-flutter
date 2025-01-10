@@ -17,7 +17,6 @@ import 'package:tmail_ui_user/main/routes/app_routes.dart';
 import 'package:tmail_ui_user/main/routes/route_navigation.dart';
 import 'package:tmail_ui_user/main/utils/app_utils.dart';
 import 'package:tmail_ui_user/main/utils/twake_app_manager.dart';
-import 'package:url_strategy/url_strategy.dart';
 import 'package:worker_manager/worker_manager.dart';
 
 Future<void> main() async {
@@ -38,7 +37,7 @@ Future<void> runTmail() async {
   ]);
   await HiveCacheConfig.instance.initializeEncryptionKey();
   
-  setPathUrlStrategy();
+  usePathUrlStrategy();
   
   runApp(const TMailApp());
 }

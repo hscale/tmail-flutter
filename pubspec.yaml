@@ -120,27 +120,27 @@ dependencies:
       ref: master
 
   ### Dependencies from pub.dev ###
-  cupertino_icons: 1.0.6
+  cupertino_icons: 1.0.8
 
   get: 4.6.6
 
   intl_generator: 0.4.1
 
-  flutter_svg: 2.0.9
+  flutter_svg: 2.0.17
 
   dio: 5.0.0
 
   equatable: 2.0.5
 
-  shared_preferences: 2.0.18
+  shared_preferences: ^2.3.5
 
   dartz: 0.10.1
 
-  flutter_dotenv: 5.0.2
+  flutter_dotenv: ^5.2.1
 
   built_collection: 5.1.1
 
-  textfield_tags: 2.0.2
+  textfield_tags: ^3.0.1
 
   http_parser: 4.0.2
 
@@ -148,61 +148,61 @@ dependencies:
 
   filesize: 2.0.1
 
-  uuid: 3.0.7
+  uuid: ^4.5.1
 
-  flutter_downloader: 1.10.2
+  flutter_downloader: ^1.11.8
 
-  external_path: 1.0.3
+  external_path: ^2.0.1
 
-  path_provider: 2.1.1
+  path_provider: 2.1.5
 
-  device_info_plus: 8.1.0
+  device_info_plus: 10.1.2
 
-  permission_handler: 10.2.0
+  permission_handler: ^11.0.1
 
-  share_plus: 7.2.1
+  share_plus: ^10.0.2
 
   hive: 2.2.3
 
   pointer_interceptor: 0.10.1
 
-  rxdart: 0.27.7
+  rxdart: ^0.28.0
 
-  connectivity_plus: 3.0.3
+  connectivity_plus: ^6.1.1
 
-  dropdown_button2: 2.0.0
+  dropdown_button2: ^2.3.9
 
-  flutter_staggered_grid_view: 0.6.2
+  flutter_staggered_grid_view: ^0.7.0
 
-  flutter_portal: 1.1.3
+  flutter_portal: ^1.1.4
 
   timeago: 3.7.0
 
-  better_open_file: 3.6.4
+  better_open_file: ^3.6.5
 
-  flutter_appauth: 6.0.6
+  flutter_appauth: ^6.0.7
 
-  percent_indicator: 4.2.2
+  percent_indicator: ^4.2.4
 
-  worker_manager: 5.0.3
+  worker_manager: ^7.2.2
 
   async: 2.11.0
 
-  html: 0.15.3
+  html: 0.15.5
 
   custom_pop_up_menu: 1.2.4
 
-  byte_converter: 1.3.0
+  byte_converter: ^2.0.0
 
   json_annotation: 4.8.0
 
-  url_launcher: 6.1.10
+  url_launcher: 6.3.1
 
-  firebase_core: 2.7.0
+  firebase_core: ^3.10.0
 
-  firebase_messaging: 14.2.5
+  firebase_messaging: ^15.2.0
 
-  flutter_local_notifications: 16.2.0
+  flutter_local_notifications: ^18.0.1
 
   fading_edge_scrollview: 4.1.1
 
@@ -218,49 +218,48 @@ dependencies:
 
   intl: 0.19.0
 
-  external_app_launcher: 3.1.0
+  external_app_launcher: ^4.0.1
 
-  workmanager: 0.5.1
+  workmanager: ^0.5.2
 
-  flutter_typeahead: 5.0.2
+  flutter_typeahead: 5.2.0
 
   flutter_keyboard_visibility: 6.0.0
 
-  extended_text: 13.0.2
+  extended_text: ^14.2.0
 
-  date_format: 2.0.7
+  date_format: ^2.0.9
 
   flutter_linkify: 6.0.0
 
-  flutter_slidable: 3.1.0
+  flutter_slidable: ^3.1.2
 
-  url_strategy: 0.2.0
 
   dotted_border: 2.1.0
 
   internet_connection_checker: 1.0.0+1
 
-  flutter_image_compress: 2.1.0
+  flutter_image_compress: 2.4.0
 
-  back_button_interceptor: 7.0.0
+  back_button_interceptor: ^8.0.3
 
-  flutter_secure_storage: 8.0.0
+  flutter_secure_storage: ^8.1.0
 
   mime: 1.0.4
 
-  desktop_drop: 0.4.4
+  desktop_drop: ^0.5.0
 
   future_loading_dialog: 0.3.0
 
-  file_picker: 5.3.1
+  file_picker: ^5.0.0  # Check for a compatible version
 
   app_settings: 5.1.1
 
-  web_socket_channel: 2.4.3
+  web_socket_channel: ^2.4.0
 
-  flutter_web_auth_2: 3.1.1
+  flutter_web_auth_2: ^4.1.0
 
-  app_links: 6.3.2
+  app_links: ^6.3.3
 
   duration: 4.0.3
 
@@ -274,21 +273,21 @@ dev_dependencies:
 
   mockito: 5.4.4
 
-  hive_generator: 2.0.0
+  hive_generator: ^2.0.1
 
-  flutter_lints: 2.0.1
+  flutter_lints: ^2.0.3
 
-  flutter_native_splash: 2.2.18
+  flutter_native_splash: ^2.3.7
 
-  flutter_launcher_icons: 0.12.0
+  flutter_launcher_icons: ^0.14.2
 
   xml: 6.3.0
 
   json_serializable: 6.6.1
 
-  http_mock_adapter: 0.4.2
+  http_mock_adapter: 0.4.4
 
-  patrol: 3.11.0
+  patrol: ^3.13.2
 
   plugin_platform_interface: 2.1.8
 
